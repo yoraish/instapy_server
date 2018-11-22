@@ -14,6 +14,6 @@ inDataDict = cgi.FieldStorage()
 #ask that the info will bi in the form of asdfgefs/dataHandler.py?status='alive' OR 'filming'
 if 'status' in inDataDict:
     # modify the txt file
-    print('Status is', inDataDict['status'], 'at', datetime.datetime.now())
+    print('Status is', inDataDict['status']['status'], 'at', datetime.datetime.now())
 
 # print the txt file
