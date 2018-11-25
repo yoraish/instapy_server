@@ -1,1 +1,2 @@
-status.txt
+# ignoring all text files
+*.txt
